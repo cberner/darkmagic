@@ -1,3 +1,0 @@
-import rawpy
-import exiftool
-
