@@ -1,0 +1,18 @@
+[package]
+name = "darkmagic"
+description = "Astrophotography darks processing program"
+license = "GPL-3.0-or-later"
+version = "0.0.0"
+repository = "https://github.com/cberner/darkmagic"
+authors = ["Christopher Berner <christopherberner@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rawloader = "0.36.3"
+kamadak-exif = "0.5.4"
+clap = "2.33"
+env_logger = "0.8"
+log = "0.4"
+
+[profile.release]
+debug = true
