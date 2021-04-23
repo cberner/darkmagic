@@ -74,8 +74,8 @@ allow = [
     "Apache-2.0",
     "BSD-2-Clause",
     #"BSD-3-Clause",
-    "GPL-3.0",
-    "LGPL-2.1"
+    #"GPL-3.0",
+    #"LGPL-2.1"
     #"Apache-2.0 WITH LLVM-exception",
 ]
 # List of explictly disallowed licenses
@@ -109,6 +109,7 @@ exceptions = [
     # Each entry is the crate and version constraint, and its specific allow
     # list
     #{ allow = ["Zlib"], name = "adler32", version = "*" },
+    { allow = ["LGPL-2.1"], name = "rawloader", version = "*"}
 ]
 
 # Some crates don't have (easily) machine readable licensing information,
