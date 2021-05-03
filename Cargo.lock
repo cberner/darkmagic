@@ -117,6 +117,7 @@ dependencies = [
 name = "darkmagic"
 version = "0.0.0"
 dependencies = [
+ "byteorder",
  "clap",
  "env_logger",
  "kamadak-exif",
